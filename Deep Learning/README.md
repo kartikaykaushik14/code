@@ -1,0 +1,3 @@
+Problem statement - 
+
+Train a (dense) neural network with three hidden layers with 256, 128, and 64 neurons respectively, all with ReLU activations (note, by layer we mean a linear transform followed by ReLUs), to classify grayscale images from the CIFAR-10 dataset available via torchvision.datasets.CIFAR10. You can use torchvision.transforms.Grayscale to convert CIFAR10 images to grayscale. Use a batch size of 64 and SGD optimizer with fixed lr=0.01. Display train- and test- loss curves, and report test accuracies of your final model. We leave the choice of how many epochs of training to run up to you; ideally you want to observe the training loss curve and stop when the training loss has flattened out.
