@@ -30,7 +30,7 @@ Our final ResNet model has the following characteristics -
 
 • Random Cropping: Size = 32, Padding = 4
 
-• Normalization with Mean = [0.4914, 0.4822, 0.4465], Variance = [0.2023, 0.1994, 0.2010]
+• Normalization with Mean = [0,0,0], Variance = [1,1,1]
 
 • Number of Parameters = 2,905,792
 
