@@ -183,7 +183,7 @@ for epoch in range (epochs):
   if (test_accuracy > max_val):
     max_val = test_accuracy
     max_idx = epoch
-    torch.save(model.state_dict(), 'output.pt')
+    torch.save(model.state_dict(), 'model.pt')
   
   print('Epoch %d, Train loss %.4f, Test loss %.4f, test_accuracy %.4f'%(epoch, train_loss, test_loss, test_accuracy))
 
