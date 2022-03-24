@@ -1,37 +1,8 @@
-Our final ResNet model has the following characteristics -
+Steps to run the code - 
+1. Login to NYU HPC Greene.
+3. Upload the Master_File.py and run.SBATCH on the desired location.
+4. Modify the run.SBATCH file to point to the location of the source file and modify the path in --overlay
+5. Run the batch file with the command: sbatch run.SBATCH
+6. The output file would be present under the name - output.out and the .pt file would be saved as model.pt in the same directory.
 
-• Training data vs Testing data ratio split = 10:1
-
-• Optimizer: AdamW
-
-• Learning Rate: 0.001
-
-• Weight Decay: 0.0001
-
-• Activation Function: ReLU
-
-• Batch Size: 128
-
-• Residual Layers: N = 2
-
-• Residual blocks in each of the residual layers: B = [8,8]
-
-• Channel width of each residual layer: C = [64, 128]
-
-• Kernel size applied across each residual block across the convolutional network: F = 3
-
-• Kernel size applied across the skip connections of the residual blocks: K = 1
-
-• Average pooling applied between the convolutional layer and the FC layer: P = 4
-
-• Dropout = 0.5
-
-• Random Horizontal Flip: Probability = 0.5
-
-• Random Cropping: Size = 32, Padding = 4
-
-• Normalization with Mean = [0,0,0], Variance = [1,1,1]
-
-• Number of Parameters = 2,905,792
-
-• Number of Iterations = 50
+In order to load the model.pt file, run the following command in a .py file - torch.load(model.pt)
