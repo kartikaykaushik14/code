@@ -1,0 +1,111 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+10000
+100000
+Layers: [8, 8]
+Input Channels 64
+_____InputLayer parameters 1728
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 36864
+_____BasicBlock parameters 73728
+_____BasicBlock parameters 147456
+_____SkipBlock parameters 8192
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____BasicBlock parameters 147456
+_____LinearLayer parameters 20480
+_____TOTAL PARASUM  2905792
+Learning Rate = 0.001
+Weight Decay = 0.0001
+Epoch 0, Train loss 1.4212, Test loss 1.0060, test_accuracy 64.1900
+Epoch 1, Train loss 0.8935, Test loss 0.7467, test_accuracy 73.5800
+Epoch 2, Train loss 0.6877, Test loss 0.6268, test_accuracy 78.2300
+Epoch 3, Train loss 0.5654, Test loss 0.5535, test_accuracy 81.4600
+Epoch 4, Train loss 0.4809, Test loss 0.4755, test_accuracy 83.5600
+Epoch 5, Train loss 0.4216, Test loss 0.4608, test_accuracy 84.2600
+Epoch 6, Train loss 0.3760, Test loss 0.4267, test_accuracy 85.6500
+Epoch 7, Train loss 0.3371, Test loss 0.4153, test_accuracy 85.9500
+Epoch 8, Train loss 0.3053, Test loss 0.4099, test_accuracy 86.4200
+Epoch 9, Train loss 0.2795, Test loss 0.3793, test_accuracy 87.6200
+Epoch 10, Train loss 0.2548, Test loss 0.3461, test_accuracy 88.5900
+Epoch 11, Train loss 0.2310, Test loss 0.3637, test_accuracy 88.2700
+Epoch 12, Train loss 0.2168, Test loss 0.3568, test_accuracy 88.9800
+Epoch 13, Train loss 0.1974, Test loss 0.3464, test_accuracy 89.1500
+Epoch 14, Train loss 0.1828, Test loss 0.3421, test_accuracy 89.1400
+Epoch 15, Train loss 0.1727, Test loss 0.3442, test_accuracy 89.5300
+Epoch 16, Train loss 0.1605, Test loss 0.3330, test_accuracy 89.6200
+Epoch 17, Train loss 0.1506, Test loss 0.3589, test_accuracy 89.3100
+Epoch 18, Train loss 0.1454, Test loss 0.3304, test_accuracy 89.9900
+Epoch 19, Train loss 0.1367, Test loss 0.3442, test_accuracy 89.8700
+Epoch 20, Train loss 0.1288, Test loss 0.3435, test_accuracy 90.1900
+Epoch 21, Train loss 0.1226, Test loss 0.3599, test_accuracy 89.3600
+Epoch 22, Train loss 0.1168, Test loss 0.3579, test_accuracy 89.6900
+Epoch 23, Train loss 0.1119, Test loss 0.3473, test_accuracy 90.1400
+Epoch 24, Train loss 0.1037, Test loss 0.3646, test_accuracy 90.2300
+Epoch 25, Train loss 0.1009, Test loss 0.3697, test_accuracy 89.8000
+Epoch 26, Train loss 0.0985, Test loss 0.3269, test_accuracy 90.5300
+Epoch 27, Train loss 0.0951, Test loss 0.3642, test_accuracy 90.0300
+Epoch 28, Train loss 0.0881, Test loss 0.3663, test_accuracy 89.9400
+Epoch 29, Train loss 0.0879, Test loss 0.3424, test_accuracy 90.2900
+Epoch 30, Train loss 0.0856, Test loss 0.3650, test_accuracy 90.2400
+Epoch 31, Train loss 0.0821, Test loss 0.3471, test_accuracy 90.7800
+Epoch 32, Train loss 0.0799, Test loss 0.3432, test_accuracy 90.3800
+Epoch 33, Train loss 0.0758, Test loss 0.3546, test_accuracy 90.6300
+Epoch 34, Train loss 0.0757, Test loss 0.3262, test_accuracy 91.0200
+Epoch 35, Train loss 0.0720, Test loss 0.3964, test_accuracy 90.1300
+Epoch 36, Train loss 0.0722, Test loss 0.3505, test_accuracy 90.4500
+Epoch 37, Train loss 0.0676, Test loss 0.3660, test_accuracy 90.6900
+Epoch 38, Train loss 0.0675, Test loss 0.3671, test_accuracy 90.8000
+Epoch 39, Train loss 0.0658, Test loss 0.3554, test_accuracy 90.9900
+Epoch 40, Train loss 0.0653, Test loss 0.3703, test_accuracy 91.0300
+Epoch 41, Train loss 0.0624, Test loss 0.3430, test_accuracy 90.8800
+Epoch 42, Train loss 0.0616, Test loss 0.3611, test_accuracy 91.3100
+Epoch 43, Train loss 0.0588, Test loss 0.3896, test_accuracy 90.7300
+Epoch 44, Train loss 0.0580, Test loss 0.3758, test_accuracy 90.6400
+Epoch 45, Train loss 0.0561, Test loss 0.3728, test_accuracy 90.5900
+Epoch 46, Train loss 0.0558, Test loss 0.3639, test_accuracy 90.9900
+Epoch 47, Train loss 0.0542, Test loss 0.3892, test_accuracy 90.6000
+Epoch 48, Train loss 0.0540, Test loss 0.3839, test_accuracy 90.4000
+Epoch 49, Train loss 0.0532, Test loss 0.3769, test_accuracy 91.1900
+Epoch 50, Train loss 0.0508, Test loss 0.3567, test_accuracy 91.5200
+Epoch 51, Train loss 0.0515, Test loss 0.3888, test_accuracy 91.1900
+Epoch 52, Train loss 0.0495, Test loss 0.3753, test_accuracy 91.6200
+Epoch 53, Train loss 0.0478, Test loss 0.4020, test_accuracy 91.1300
+Epoch 54, Train loss 0.0474, Test loss 0.3770, test_accuracy 91.0500
+Epoch 55, Train loss 0.0453, Test loss 0.3681, test_accuracy 91.1100
+Epoch 56, Train loss 0.0457, Test loss 0.3761, test_accuracy 91.4400
+Epoch 57, Train loss 0.0463, Test loss 0.4060, test_accuracy 90.8200
+Epoch 58, Train loss 0.0470, Test loss 0.3857, test_accuracy 91.2600
+Epoch 59, Train loss 0.0444, Test loss 0.4065, test_accuracy 91.4300
+________________________
+Max accuracy = 91.6200 in epoch = 52
+_________Training Loss_______________
+[1.421161999406717, 0.8934664565431493, 0.6876695129420142, 0.5653599725126306, 0.48091776059259234, 0.421640032144916, 0.3760229273677787, 0.33707948046190966, 0.3052525200006907, 0.2795130602558098, 0.2547696468603733, 0.23103680544535218, 0.2167657898248309, 0.19738528406833444, 0.18275484935287625, 0.1727042848916005, 0.16052894095135162, 0.150629693775645, 0.14543475667991296, 0.1367143247529026, 0.12882944474906644, 0.12256659997765289, 0.11677803004594028, 0.1119038284996815, 0.10372427205705201, 0.10092905932403815, 0.09846003185910032, 0.0951237168944324, 0.08808658368852171, 0.0879257907191782, 0.085565185126708, 0.08205556860931999, 0.07986142723809195, 0.07580239360656618, 0.07569336916541543, 0.07201102825656981, 0.07217463498632602, 0.06764021528232128, 0.0674614855147841, 0.06577321302795978, 0.06533438981155795, 0.06239884279851737, 0.061636944806984506, 0.058813542654604443, 0.05799332441037992, 0.056079451798918704, 0.05577824085229136, 0.054206129860506894, 0.05395424047150337, 0.05319025503385745, 0.0507681931370793, 0.051548578223223084, 0.04952229993939495, 0.047806038142210516, 0.047382698306823366, 0.04534623640871671, 0.04566593534882416, 0.04627054546664343, 0.04697021101857476, 0.04436705189267569]
+_________Testing Loss_______________
+[1.0060134303720691, 0.7466945097416262, 0.6268235445022583, 0.5534657394584221, 0.47552201868612554, 0.4607731539614593, 0.4266941894458819, 0.41529833063294613, 0.4098642983391315, 0.37930031271674963, 0.34613106428067897, 0.3636917950986307, 0.35676247466214095, 0.3463811676807796, 0.3420940049086945, 0.3442218871433524, 0.33304008879239044, 0.35890967766695386, 0.33037979080329966, 0.3441770550193666, 0.3434764572148082, 0.35994498469407044, 0.35790768171413034, 0.34731100518492203, 0.36463584321775017, 0.3696593331951129, 0.3269300284453585, 0.3641713033371334, 0.36626069728709476, 0.34235990783081777, 0.36502144646041, 0.3470859126765517, 0.34316535350642624, 0.354618307910388, 0.3262024287936054, 0.3964031094425841, 0.35051901864854595, 0.36596758852276623, 0.36709699147864233, 0.3553724375706685, 0.37031600713918483, 0.3430160963082615, 0.36108825313328186, 0.3895920901736127, 0.3758447700286213, 0.3728315028585965, 0.3639361386812186, 0.38919163448146626, 0.38387439428251, 0.37685939537573465, 0.35673943576933465, 0.38884298003549816, 0.37526980438564395, 0.40203137959860547, 0.3769999663286571, 0.3681030122539665, 0.3760885534973084, 0.40604139100524445, 0.3856761187692232, 0.4064769949528235]
