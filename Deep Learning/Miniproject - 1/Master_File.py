@@ -146,7 +146,7 @@ para_sum = 0
 train_loss_history = []
 test_loss_history = []
 
-epochs = 50
+epochs = 60
 max_val = 0
 max_idx = 0
 
