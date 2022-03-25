@@ -6,3 +6,5 @@ Steps to run the code -
 6. The output file would be present under the name - output.out and the .pt file would be saved as project1_model.pt in the same directory.
 
 In order to load the project1_model.pt file, run the following command in a .py file - torch.load(project1_model.pt)
+
+Please note that the testing data input to the model is also normalized across [0,0,0], [1,1,1]
