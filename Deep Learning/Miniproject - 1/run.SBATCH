@@ -14,4 +14,4 @@ module purge
 singularity exec --nv \
             --overlay /scratch/kk4332/pytorch-example/my_pytorch.ext3:ro \
             /scratch/work/public/singularity/cuda11.2.2-cudnn8-devel-ubuntu20.04.sif \
-            /bin/bash -c "source /ext3/env.sh; python Master_File.py"
+            /bin/bash -c "source /ext3/env.sh; python project1_model.py"
