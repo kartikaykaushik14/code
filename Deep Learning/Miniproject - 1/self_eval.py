@@ -35,13 +35,14 @@ def test(model, testloader, criterion, device):
 
 def main():
     transform_test = transforms.Compose([
-        transforms.ToTensor()
+        transforms.ToTensor(),
+        transforms.Normalize((0,0,0), (1,1,1))
     ])
 
     validset = torchvision.datasets.CIFAR10(
       root='./data', train=False, download=True, transform=transform_test)
     validloader = torch.utils.data.DataLoader(
-      validset, batch_size=1000)
+      validset, batch_size=32)
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
