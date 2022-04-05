@@ -35,8 +35,7 @@ def test(model, testloader, criterion, device):
 
 def main():
     transform_test = transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2471, 0.2435, 0.2616)),
+        transforms.ToTensor()
     ])
 
     validset = torchvision.datasets.CIFAR10(
