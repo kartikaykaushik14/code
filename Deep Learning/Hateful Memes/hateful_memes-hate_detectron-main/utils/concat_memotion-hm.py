@@ -48,12 +48,12 @@ args = vars(ap.parse_args())
 home = args["home"]
 
 # Get annotations
-dev_seen = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/dev_seen.jsonl", lines=True)
-dev_unseen = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/dev_unseen.jsonl", lines=True)
-train = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/train.jsonl", lines=True)
+dev_seen = pd.read_json("datasets/hateful_memes/defaults/annotations/dev_seen.jsonl", lines=True)
+dev_unseen = pd.read_json("datasets/hateful_memes/defaults/annotations/dev_unseen.jsonl", lines=True)
+train = pd.read_json("datasets/hateful_memes/defaults/annotations/train.jsonl", lines=True)
 
 # Get 100 image id's: {'dev_seen' \ 'dev_unseen'}
-seen_imgs = get_img_list_from_dev("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/")
+seen_imgs = get_img_list_from_dev("datasets/hateful_memes/defaults/annotations/")
 # Add 100 images to 'train.jsonl'
 for i in seen_imgs:
     train = pd.concat([train, dev_seen[dev_seen["img"]==i]], axis=0)
@@ -67,5 +67,5 @@ train = train.sample(frac=1).reset_index(drop=True)
 # Write new jsonl file
 train_json = train.to_json(orient='records', lines=True)
 
-with open(os.path.join(home, "train_v10.jsonl"), "w", encoding='utf-8') as f:
+with open("datasets/hateful_memes/defaults/annotations/train_v10.jsonl", "w", encoding='utf-8') as f:
     f.write(train_json)
